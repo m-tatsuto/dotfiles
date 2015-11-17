@@ -1,3 +1,5 @@
+git clone http://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
+
 for f in .??*
 do
     [ "$f" = ".git" ] && continue

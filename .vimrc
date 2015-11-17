@@ -1,7 +1,7 @@
 set directory=~/.vim/tmp/swap
 set backupdir=~/.vim/tmp/backup
 set noswap
-"set nobackup
+set nobackup
 set noundofile
 
 "for Vundle
