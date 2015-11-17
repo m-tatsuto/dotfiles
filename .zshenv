@@ -1,1 +1,1 @@
-/Users/t.maetsu/.zprezto/runcoms/zshenv
+export PATH=/usr/local/bin:$PATH
