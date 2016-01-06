@@ -70,6 +70,8 @@ alias mv='mv -i'
  
 alias mkdir='mkdir -p'
 
+alias pong='perl -nle '\''print "display notification \"$_\" with title \"Terminal\""'\'' | osascript'
+
 
 ########################################
 # OS 別の設定
