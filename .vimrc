@@ -42,3 +42,4 @@ let mapleader = "\<Space>"
 nnoremap <Leader>o :CtrlP<CR>
 nnoremap <Leader>w :w<CR>
 
+Bundle 'wakatime/vim-wakatime'

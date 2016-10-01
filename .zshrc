@@ -8,6 +8,9 @@ compinit -u
 
 export LANG=ja_JP.UTF-8
 
+# GOPATH
+export GOPATH=$HOME/.go
+
 # 色を使用出来るようにする
 autoload -Uz colors
 colors
@@ -19,12 +22,13 @@ export PATH=$HOME/.nodebrew/current/bin:$PATH
 
 export PATH="$PATH:/usr/sbin"
 
+export PATH=$HOME/.go/bin:$PATH
+
 
 # The next line updates PATH for the Google Cloud SDK.
-source '/Users/Tatsuto/google-cloud-sdk/path.zsh.inc'
-
+#source '/Users/Tatsuto/google-cloud-sdk/path.zsh.inc'
 # The next line enables bash completion for gcloud.
-source '/Users/Tatsuto/google-cloud-sdk/completion.zsh.inc'
+#source '/Users/Tatsuto/google-cloud-sdk/completion.zsh.inc'
 
 # ヒストリの設定
 HISTFILE=~/.zsh_history
